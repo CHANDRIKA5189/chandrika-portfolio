@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Chandrika Bhattacharya — Data Scientist and Machine Learning & AI Engineer. Applied AI, computer vision, NLP, generative AI, deployment and research.">
+<title>Chandrika Bhattacharya — AI / ML Engineer</title>
+<style>
+:root{--bg:#05070c;--surface:#0a0f18;--surface2:#0e1521;--text:#f5f7fb;--muted:#8995a8;--line:rgba(255,255,255,.085);--violet:#8b7cff;--cyan:#5ce1d2;--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.7 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 80% 5%,rgba(139,124,255,.14),transparent 25%),radial-gradient(circle at 10% 45%,rgba(92,225,210,.07),transparent 25%);z-index:-1}
+a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}
+nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(5,7,12,.62);backdrop-filter:blur(20px);border-bottom:1px solid var(--line)}
+.nav{height:74px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;letter-spacing:-.06em;font-size:20px}.logo i{font-style:normal;color:var(--violet)}
+.navlinks{display:flex;gap:25px;color:#aeb8c9;font-size:13px}.navlinks a:hover{color:#fff}.navcta{border:1px solid var(--line);padding:9px 14px;border-radius:11px;font-weight:700;font-size:13px}
+.hero{min-height:100vh;padding:160px 0 90px;display:grid;grid-template-columns:1.25fr .75fr;gap:70px;align-items:center}
+.status{display:inline-flex;align-items:center;gap:9px;color:#b9c3d4;border:1px solid var(--line);background:rgba(255,255,255,.025);padding:7px 11px;border-radius:999px;font-size:12px}.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 14px var(--cyan)}
+h1{font-size:clamp(4rem,7.5vw,7.6rem);line-height:.9;letter-spacing:-.075em;margin:25px 0}.shine{background:linear-gradient(105deg,#fff 15%,#b3aaff 52%,#69e6d6 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:720px;color:var(--muted);font-size:18px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{padding:12px 17px;border-radius:12px;border:1px solid var(--line);background:var(--surface);font-weight:750}.btn.primary{background:#f5f7fb;color:#070a10;border-color:transparent}.btn:hover{transform:translateY(-2px);transition:.2s}
+.identity{border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.015));padding:28px;box-shadow:0 35px 100px rgba(0,0,0,.4);position:relative;overflow:hidden}.identity:after{content:"";position:absolute;width:260px;height:260px;right:-100px;top:-100px;background:radial-gradient(circle,rgba(139,124,255,.25),transparent 68%);pointer-events:none}
+.avatar{height:230px;border-radius:22px;background:radial-gradient(circle at 50% 35%,#b9b1ff 0 3%,#7d71e9 15%,#252844 43%,#0b101a 72%);display:grid;place-items:end center;overflow:hidden;margin-bottom:23px}.avatar span{font-size:100px;font-weight:900;letter-spacing:-.1em;color:rgba(255,255,255,.9);transform:translateY(20px)}
+.identity h3{font-size:21px;margin:0}.identity p{font-size:13px;margin:4px 0;color:var(--muted)}.identity a{color:#c6ceff}
+.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:20px}.quick div{border:1px solid var(--line);border-radius:13px;padding:11px;text-align:center}.quick b{display:block;font-size:18px}.quick small{color:var(--muted);font-size:10px}
+section{padding:115px 0;border-top:1px solid var(--line)}.label{color:var(--cyan);text-transform:uppercase;letter-spacing:.17em;font-size:11px;font-weight:850}.heading{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:38px}.heading h2{font-size:clamp(2.4rem,4.6vw,4.6rem);line-height:.95;letter-spacing:-.065em;margin:9px 0}.heading p{max-width:500px;color:var(--muted)}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--surface)}.metric{padding:28px;border-right:1px solid var(--line)}.metric:last-child{border:0}.metric strong{display:block;font-size:34px;letter-spacing:-.05em}.metric span{color:var(--muted);font-size:12px}
+.story{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:27px}.panel h3{margin:0 0 9px;font-size:19px}.panel p{color:var(--muted);margin:0}
+.timeline{margin-left:8px;padding-left:30px;border-left:1px solid var(--line)}.job{position:relative;padding-bottom:35px}.job:last-child{padding-bottom:0}.job:before{content:"";position:absolute;left:-36px;top:8px;width:9px;height:9px;border-radius:50%;background:var(--violet);box-shadow:0 0 0 6px rgba(139,124,255,.1)}.job .date{font-size:12px;color:var(--cyan);font-weight:800}.job h3{font-size:20px;margin:4px 0}.job p{color:var(--muted);max-width:780px;margin:0}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.project{min-height:310px;display:flex;flex-direction:column;background:linear-gradient(150deg,#0d1420,#080c13);border:1px solid var(--line);border-radius:22px;padding:25px;transition:.25s}.project:hover{transform:translateY(-5px);border-color:rgba(139,124,255,.5);box-shadow:0 25px 60px rgba(0,0,0,.25)}.number{color:#667286;font-size:12px}.project h3{font-size:21px;line-height:1.15;letter-spacing:-.03em}.project p{color:var(--muted);font-size:13px}.tags{margin-top:4px}.tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 8px;font-size:10px;color:#c2cad8;margin:0 4px 5px 0}.project .foot{margin-top:auto;padding-top:20px;color:#c6ceff;font-size:13px;font-weight:800}
+.research{display:grid;grid-template-columns:1.3fr .7fr;gap:17px}.paper{padding:34px;border-radius:24px;border:1px solid var(--line);background:linear-gradient(135deg,rgba(139,124,255,.12),rgba(92,225,210,.045))}.paper h3{font-size:27px;line-height:1.15;max-width:750px}.paper p{color:var(--muted)}.badge{display:inline-block;color:#c8c1ff;border:1px solid rgba(139,124,255,.28);background:rgba(139,124,255,.08);padding:6px 9px;border-radius:999px;font-size:10px;font-weight:800}
+.skills{display:flex;flex-wrap:wrap;gap:9px}.skill{border:1px solid var(--line);background:var(--surface);border-radius:11px;padding:9px 12px;color:#cbd3e1;font-size:12px}
+.contact{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}.contact .panel:first-child{padding:38px}.contact h2{font-size:clamp(2.8rem,5vw,5rem);line-height:.92;letter-spacing:-.065em;margin:10px 0 20px}.contact p{color:var(--muted)}.linkslist{display:grid;gap:11px}.linkslist a{border-bottom:1px solid var(--line);padding:11px 0;color:#cbd3e1}
+footer{border-top:1px solid var(--line);padding:30px 0;color:#697588;font-size:11px;display:flex;justify-content:space-between}
+@media(max-width:900px){.hero,.story,.research,.contact{grid-template-columns:1fr}.projects{grid-template-columns:1fr 1fr}.navlinks{display:none}.hero{padding-top:130px}.metrics{grid-template-columns:1fr 1fr}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+@media(max-width:600px){.wrap{width:calc(100% - 28px)}.projects{grid-template-columns:1fr}.heading{display:block}.hero{padding-top:120px}h1{font-size:4rem}.metrics{grid-template-columns:1fr 1fr}.quick{grid-template-columns:repeat(3,1fr)}section{padding:80px 0}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="logo" href="#home">CB<i>.</i></a><div class="navlinks"><a href="#work">Work</a><a href="#projects">Projects</a><a href="#research">Research</a><a href="#skills">Stack</a><a href="#contact">Contact</a></div><a class="navcta" href="mailto:cbhattacharya950@gmail.com">Get in touch ↗</a></div></nav>
+
+<main id="home">
+<div class="wrap hero">
+<div>
+<div class="status"><span class="dot"></span> Open to international opportunities</div>
+<h1>AI that moves<br><span class="shine">from idea to impact.</span></h1>
+<p><strong>Chandrika Bhattacharya</strong> — Data Scientist and Machine Learning & AI Engineer building practical systems across predictive ML, deep learning, NLP, computer vision and Generative AI.</p>
+<div class="buttons"><a class="btn primary" href="#projects">Explore selected work ↓</a><a class="btn" href="Chandrika_Bhattacharya_Resume_International.docx">Resume ↗</a><a class="btn" href="https://github.com/CHANDRIKA5189" target="_blank">GitHub ↗</a></div>
+</div>
+<div class="identity">
+<div class="avatar"><span>CB</span></div>
+<h3>Chandrika Bhattacharya</h3><p>Data Scientist · ML / AI Engineer</p><p><a href="mailto:cbhattacharya950@gmail.com">cbhattacharya950@gmail.com</a></p>
+<div class="quick"><div><b>5+</b><small>Industry roles</small></div><div><b>20+</b><small>AI projects</small></div><div><b>1</b><small>Scopus paper</small></div></div>
+</div>
+</div>
+
+<section id="work"><div class="wrap">
+<div class="heading"><div><div class="label">01 / Profile</div><h2>Engineering with<br>an applied mindset.</h2></div><p>I work across the full AI lifecycle: data preparation, modeling, evaluation, API integration and deployment — with a focus on useful, measurable outcomes.</p></div>
+<div class="metrics"><div class="metric"><strong>94%</strong><span>Drowsiness classifier validation accuracy</span></div><div class="metric"><strong>&lt;200ms</strong><span>Multi-person vision pipeline latency</span></div><div class="metric"><strong>100+</strong><span>Prediction API requests / minute</span></div><div class="metric"><strong>25K+</strong><span>Records handled in an ML internship</span></div></div>
+<div class="story" style="margin-top:18px"><div class="panel"><h3>What I build</h3><p>Predictive ML systems, real-time computer vision, NLP and retrieval systems, Generative AI workflows, and production-oriented model APIs.</p></div><div class="panel"><h3>Where I’m going</h3><p>AI engineering, Data Science and intelligent systems — particularly at the intersection of healthcare, robotics and practical automation.</p></div></div>
+</div></section>
+
+<section id="work2"><div class="wrap"><div class="heading"><div><div class="label">02 / Experience</div><h2>Production-minded<br>AI experience.</h2></div><p>Experience across Data Science, ML engineering and analytics roles, including real-time inference and backend integration.</p></div>
+<div class="timeline">
+<div class="job"><div class="date">JAN 2026 — PRESENT · EVOSTRA VENTURES</div><h3>Data Scientist</h3><p>Developing and deploying predictive ML models, strengthening preprocessing and data pipelines, and integrating real-time inference into backend systems through REST APIs.</p></div>
+<div class="job"><div class="date">OCT 2025 — NOV 2025 · EVOSTRA · REMOTE</div><h3>AI/ML Intern · Team Lead</h3><p>Built predictive ML models, optimized feature engineering and validation workflows, and coordinated delivery of ML modules for backend integration.</p></div>
+<div class="job"><div class="date">MAY 2025 — JUL 2025 · NULLCLASS</div><h3>Data Science Intern</h3><p>Designed Python and SQL ML pipelines for 25,000+ records and improved classification workflows through structured preprocessing and tuning.</p></div>
+<div class="job"><div class="date">JAN 2025 — MAR 2025 · MEDTOUREASY</div><h3>Data Analyst Intern</h3><p>Automated ETL workflows and built KPI dashboards to improve reporting visibility and stakeholder decision-making.</p></div>
+<div class="job"><div class="date">MAY 2024 — JUL 2024 · ADITYA BIRLA GROUP</div><h3>Data Analyst Intern</h3><p>Worked on predictive analytics, FastAPI REST APIs, feature engineering and hyperparameter optimization across AI solutions.</p></div>
+</div></div></section>
+
+<section id="projects"><div class="wrap"><div class="heading"><div><div class="label">03 / Selected work</div><h2>Six projects.<br>One direction.</h2></div><p>Selected work demonstrating modeling depth, real-time inference, healthcare AI, deployment and product thinking.</p></div>
+<div class="projects">
+<article class="project"><span class="number">01</span><div class="tags"><span class="tag">HEALTHCARE</span><span class="tag">NLP</span><span class="tag">ML</span></div><h3>AI-Powered Clinical Decision Support</h3><p>Full-stack disease prediction system using spaCy NLP and Random Forest/XGBoost, with confidence scoring, severity classification and downloadable reports.</p><div class="foot"><a href="https://github.com/CHANDRIKA5189" target="_blank">View on GitHub ↗</a></div></article>
+<article class="project"><span class="number">02</span><div class="tags"><span class="tag">COMPUTER VISION</span><span class="tag">CNN</span><span class="tag">REAL-TIME</span></div><h3>Real-Time Drowsiness Detection</h3><p>CNN-based eye-state classifier with 94% validation accuracy and a multi-person pipeline under 200ms latency, plus age prediction at 88% accuracy.</p><div class="foot"><a href="https://github.com/CHANDRIKA5189" target="_blank">View on GitHub ↗</a></div></article>
+<article class="project"><span class="number">03</span><div class="tags"><span class="tag">FASTAPI</span><span class="tag">AWS</span><span class="tag">DOCKER</span></div><h3>Deployed ML Prediction API</h3><p>Containerized a real-time prediction REST API and deployed it on AWS EC2 with S3 model storage, handling 100+ requests/minute.</p><div class="foot"><a href="https://github.com/CHANDRIKA5189" target="_blank">View on GitHub ↗</a></div></article>
+<article class="project"><span class="number">04</span><div class="tags"><span class="tag">NLP</span><span class="tag">RETRIEVAL QA</span></div><h3>AI Medical Q&A System</h3><p>Healthcare-oriented language and retrieval work exploring practical question-answering workflows.</p><div class="foot"><a href="https://github.com/CHANDRIKA5189" target="_blank">Explore repository ↗</a></div></article>
+<article class="project"><span class="number">05</span><div class="tags"><span class="tag">VISION</span><span class="tag">DEEP LEARNING</span></div><h3>Multi-Attribute Vision Intelligence</h3><p>Computer vision work involving image understanding and face-analysis tasks across multiple attributes and datasets.</p><div class="foot"><a href="https://github.com/CHANDRIKA5189" target="_blank">Explore repository ↗</a></div></article>
+<article class="project"><span class="number">06</span><div class="tags"><span class="tag">FULL STACK</span><span class="tag">AI PRODUCT</span></div><h3>Full-Stack AI Product Platform</h3><p>End-to-end product work combining an application interface, AI functionality and practical backend integration.</p><div class="foot"><a href="https://github.com/CHANDRIKA5189" target="_blank">Explore repository ↗</a></div></article>
+</div></div></section>
+
+<section id="research"><div class="wrap"><div class="heading"><div><div class="label">04 / Research</div><h2>Research with<br>real-world context.</h2></div><p>Published work focused on robotic-assisted surgery and the evolution of intelligent healthcare technology.</p></div>
+<div class="research"><article class="paper"><span class="badge">SPRINGER · LNNS · SCOPUS INDEXED · ICCI 2025</span><h3>“Scalpels and Circuits: Robotic-Assisted Surgery in India”</h3><p>Published research examining robotic-assisted surgery and its technological context in India.</p></article><div class="panel"><h3>Research interests</h3><p>AI for healthcare<br>Medical computer vision<br>Robotics & intelligent systems<br>Decision support<br>Trustworthy applied AI</p></div></div></div></section>
+
+<section id="skills"><div class="wrap"><div class="heading"><div><div class="label">05 / Technical stack</div><h2>The toolkit.</h2></div><p>A practical stack spanning data, modeling, AI systems and deployment.</p></div>
+<div class="skills">
+<span class="skill">Python</span><span class="skill">SQL</span><span class="skill">JavaScript</span><span class="skill">TensorFlow</span><span class="skill">Keras</span><span class="skill">PyTorch</span><span class="skill">CNN</span><span class="skill">LSTM</span><span class="skill">Transformers</span><span class="skill">OpenCV</span><span class="skill">MediaPipe</span><span class="skill">spaCy</span><span class="skill">LLMs</span><span class="skill">RAG</span><span class="skill">Hugging Face</span><span class="skill">FastAPI</span><span class="skill">REST APIs</span><span class="skill">Docker</span><span class="skill">AWS EC2</span><span class="skill">AWS S3</span><span class="skill">Git</span><span class="skill">GitHub</span><span class="skill">MySQL</span><span class="skill">Power BI</span><span class="skill">Pandas</span><span class="skill">NumPy</span>
+</div></div></section>
+
+<section id="contact"><div class="wrap"><div class="contact"><div class="panel"><div class="label">06 / Contact</div><h2>Let’s build<br>what’s next.</h2><p>Interested in AI/ML engineering, Data Science, intelligent systems or research? I’m open to international opportunities, relocation, remote and on-site roles.</p><div class="buttons"><a class="btn primary" href="mailto:cbhattacharya950@gmail.com">Email me ↗</a><a class="btn" href="Chandrika_Bhattacharya_Resume_International.docx">Resume ↗</a></div></div><div class="panel"><div class="linkslist"><a href="mailto:cbhattacharya950@gmail.com">Email · cbhattacharya950@gmail.com ↗</a><a href="https://www.linkedin.com/in/chandrika-bhattacharya-7607a534a" target="_blank">LinkedIn · Chandrika Bhattacharya ↗</a><a href="https://github.com/CHANDRIKA5189" target="_blank">GitHub · CHANDRIKA5189 ↗</a><span style="color:#8995a8;padding:11px 0">Kolkata, India · Open to relocation worldwide</span></div></div></div></div></section>
+</main>
+<footer class="wrap"><span>© 2026 Chandrika Bhattacharya</span><span>Data Scientist · ML / AI Engineer</span></footer>
+</body>
+</html>
