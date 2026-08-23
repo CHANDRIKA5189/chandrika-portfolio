@@ -1,30 +1,28 @@
-# Full-Stack AI Platform
-
-A full-stack AI application combining an interactive web interface with machine-learning and AI capabilities.
+# Full-Stack AI Product Platform
 
 ## Overview
-This project demonstrates how AI functionality can be integrated into a modern web product rather than being limited to a standalone notebook or model script.
+A full-stack product platform combining a modern web frontend, backend REST services, authentication, role-based access control, payment integration and order tracking.
 
-## Key Areas
-- Interactive web application
-- AI/ML inference integration
-- Backend API communication
-- Responsive frontend experience
-- Modular project structure suitable for iterative development
+## Key Features
+- React-based frontend.
+- Node.js backend.
+- MySQL database.
+- JWT authentication.
+- Role-based access control.
+- REST APIs.
+- Payment integration.
+- Order tracking.
 
 ## Technology Stack
-- JavaScript / TypeScript
-- React / Next.js
-- Node.js
-- Express
-- Python-based AI services where applicable
-- REST APIs
+React · Node.js · MySQL · JavaScript · REST APIs · JWT · Payment Integration
 
-## Engineering Focus
-- Separation of frontend and backend responsibilities
-- API-driven AI integration
-- Reusable application components
-- Production-oriented project structure
+## Architecture
+Frontend → REST API → Node.js services → MySQL database
+
+Authentication and authorization are handled through JWT and role-based access control.
+
+## Repository
+The related implementation is represented by `tiffin-service`.
 
 ## Author
 **Chandrika Bhattacharya** — Data Scientist | AI/ML Engineer
