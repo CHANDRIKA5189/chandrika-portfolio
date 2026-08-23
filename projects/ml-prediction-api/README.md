@@ -1,23 +1,53 @@
-# Deployed ML Prediction API
+# ML Prediction API — FastAPI, Docker & AWS
+
+A production-oriented machine-learning inference service exposing trained prediction models through a REST API and containerized cloud deployment workflow.
 
 ## Overview
-A production-oriented machine learning prediction service built around a REST API and containerized deployment workflow.
+The project demonstrates the transition from a trained ML model to a deployable backend service. FastAPI provides the API layer, Docker packages the application, and AWS services support deployment and model storage.
+
+## Technology Stack
+- Python
+- Machine Learning
+- FastAPI
+- REST API
+- Docker
+- AWS EC2
+- AWS S3
 
 ## Architecture
-- FastAPI REST API for real-time prediction serving.
-- Docker containerization for reproducible environments.
-- AWS EC2 deployment.
-- AWS S3 model storage.
-- Scalable inference workflow.
+```text
+Client
+  ↓
+FastAPI REST API
+  ↓
+Validation / Preprocessing
+  ↓
+Trained ML Model
+  ↓
+Prediction Response
 
-## Reported Result
-The current CV reports handling **100+ test requests per minute**.
+Docker → AWS EC2
+AWS S3 → Model / Object Storage
+```
 
-## Domain
-Machine Learning · Backend APIs · MLOps · Cloud Deployment
+## Highlights
+- REST-based model inference
+- Input validation and preprocessing
+- Dockerized deployment
+- AWS EC2 deployment workflow
+- AWS S3 integration
+- Production-oriented prediction serving
 
-## Source
-This project is documented here because a dedicated source repository is not currently present in the connected GitHub repository list. Project details are aligned with the current CV and portfolio.
+## Reported Performance
+The current CV reports testing at **100+ prediction requests per minute**.
 
-## Portfolio
-https://chandrika5189.github.io/chandrika-portfolio/
+## Security
+Production deployments should keep credentials and secrets outside source control and use environment variables or a managed secrets service.
+
+## Source Status
+This project is documented here because a dedicated source repository is not currently present in the connected GitHub repository list. The README describes the project based on the current CV and portfolio rather than fabricating source code that is not available.
+
+## Author
+**Chandrika Bhattacharya** — Data Scientist | AI/ML Engineer
+
+Portfolio: https://chandrika5189.github.io/chandrika-portfolio/
